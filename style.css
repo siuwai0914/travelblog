@@ -1,0 +1,163 @@
+#banner{
+    width: 100%;
+    position: relative;
+}
+
+#bannerDesc{
+    position: absolute;
+    width: 45%;
+    height: 30px;
+    padding: 3%;
+    text-align: justify;
+    border-radius: 20px;
+    top: 35%;
+    left: 24%;
+}
+
+#bannerDesc > p{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 30px;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+}
+
+#bannerDesc > h2{
+    font-size: 32px;
+    line-height: 40px;
+    color: white;
+    text-shadow: #000 1px 0 10px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.name{
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.map{
+    height: 220px;
+}
+
+.post{
+    width: 220px;
+    height: 294px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#top{
+    display: flex;
+}
+
+nav {
+  background-color: #f2f2f2;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #333;
+}
+
+nav > a:hover {
+  color: #ff0000;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+
+.country {
+    width: 20%;
+}
+
+.desc{
+    margin: 2%;
+    padding: 2%;
+}
+
+#contactBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social{
+    width:54px;
+    height:54px;
+    padding:1%;
+}
+
+.header{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    padding: 2%;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    margin: 1%;
+}
+
+form{
+    padding: 2%;
+}
+
+#submit{
+    padding: 2%;
+    background-color: #ECFAFF;
+    width: 20%;
+    border-radius: 5px;
+    align-content: center;
+    border: 2px solid darkblue;
+}
+
+.big{
+    width: 40%;
+}
+
+.small{
+    width: 20%;
+}
+
+#bottom{
+    text-align: center;
+    height: 30vh;
+    padding: 3%;
+    background-color: #F5F5F5;
+}
+
+
